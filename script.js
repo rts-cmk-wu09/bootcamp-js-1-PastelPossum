@@ -10,7 +10,7 @@ let quotes = ["Du må selv være den forandring, som du ønsker at se i verden -
 "Latter er den korteste afstand mellem to mennesker - Victor Borge"
 ]
 
-function newQuote() {
+ function newQuote() {
 
     let randomNumber = Math.floor(Math.random() * (quotes.length));
     
