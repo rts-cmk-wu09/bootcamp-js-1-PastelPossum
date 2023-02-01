@@ -13,8 +13,8 @@ let quotes = ["Du må selv være den forandring, som du ønsker at se i verden -
 function newQuote() {
 
     let randomNumber = Math.floor(Math.random() * (quotes.length));
-
+    
+    document.getElementById("quote-display").innerHTML = quotes[randomNumber];
 }
-
 
 
